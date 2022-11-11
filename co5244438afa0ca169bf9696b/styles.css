@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background: linear-gradient(#fac4a2, #fff393,#d0ecb5);
+    color: #c190bf;
+    text-shadow: 0px 0px 1px black;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 175px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 6px solid #c190bf;
+    margin-bottom: 10px;
+    background: #a1e5d6;
+
+    
+}
+
+
+#bday-age {
+    background: #ffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #ffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 300px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #a1e5d6, #c190bf) 2;
+    border-radius: 10px;
+    background: #a1e5d6;
+    background-image: url("images/ZeusDosBG.png");
+    background-size: cover;
+}
+
+
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/YyN8kNBk1hxfi/giphy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.giphy.com/media/5Lr74SDPJpfNeNQfHg/giphy.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media.giphy.com/media/10XVOeS9jwd6a4/giphy.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media.giphy.com/media/S9yrky7H03A1897dru/giphy.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/TVKQuNuPt1Zja/giphy.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #c190bf;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
